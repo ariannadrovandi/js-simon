@@ -1,7 +1,25 @@
+body {
+    background-color: #f4cdff;
+}
+
+.ad-margin{
+    margin: 50px auto;
+}
+
 .w-input{
     width: 200px;
 }
 
 .w-btn{
     width: 60px;
+}
+
+.ad-bg {
+    background-color: #7899ff;
+    width: 50%;
+
+}
+
+.ad-color {
+    color: #f1cefb;
 }

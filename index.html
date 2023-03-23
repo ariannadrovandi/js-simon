@@ -11,28 +11,25 @@
 </head>
 <body>
     
-    <div class="container m-5">
-        <h1>Game</h1>
-
-        <div>
-            <p class="fs-5 m-3">Osserva i numeri che appariranno. <br> Hai 30 secondi per memorizzarli!</p>
+    <div class="container ad-bg ad-margin">
+        
+        <div class="m-3 p-2">
+            <h1>Guess the numbers</h1>
+            <p class="fs-5 m-3">Osserva i numeri che appariranno. <br> Hai 10 secondi per memorizzarli!</p>
             <p id="seconds" class="m-3"></p>
             <button id="start" class="m-3">Start</button>
             <div id="numbers" class="m-3"></div>
-        </div>
         
-
-        <div>
             <p id="message" class="m-3"></p>
-            <form id="userAnswer" class="d-flex flex-column">
+            <div id="userAnswer" class="d-flex d-none flex-column">
                 <input class="mx-3 my-2 w-input" type="number" placeholder="Inserisci la tua risposta" required>
                 <input class="mx-3 my-2 w-input" type="number" placeholder="Inserisci la tua risposta" required>
                 <input class="mx-3 my-2 w-input" type="number" placeholder="Inserisci la tua risposta" required>
                 <input class="mx-3 my-2 w-input" type="number" placeholder="Inserisci la tua risposta" required>
                 <input class="mx-3 my-2 w-input" type="number" placeholder="Inserisci la tua risposta" required>
-                <button type="submit" class="w-btn mx-3 my-2">Invia</button>
-                <p class="mt-5"></p>
-            </form>
+                <button id="validate" class="w-btn mx-3 my-2">Invia</button>
+            </div>
+            <p id="result" class="mt-5"></p>
         </div>
         
     </div>
